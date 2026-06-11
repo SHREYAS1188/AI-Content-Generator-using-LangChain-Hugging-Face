@@ -1,0 +1,14 @@
+fastapi>=0.95.0
+uvicorn[standard]
+langchain>=0.0.300
+transformers>=4.30.0
+torch>=2.0.0
+accelerate
+huggingface-hub
+pydantic
+python-multipart
+sentencepiece
+pytest
+
+# Optional: faster HTTP server / JSON handling for production
+orjson
