@@ -1,0 +1,20 @@
+# Byte- and env-friendly ignores
+__pycache__/
+.venv/
+.env
+.env.local
+*.pyc
+.ipynb_checkpoints/
+dist/
+build/
+.idea/
+.vscode/
+*.egg-info/
+
+# model / HF caches
+.huggingface/
+transformers_cache/
+
+# docker
+Dockerfile
+docker-compose.yml
